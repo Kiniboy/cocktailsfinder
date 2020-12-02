@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+///// Routes Interface Admin /////
+
+Route::get('/admin', 'Admin\AdminController@index');
+Route::get('/admin/cocktails', 'Admin\AdminCocktailsController@index');
+Route::get('/admin/bars', 'Admin\AdminBarsController@index');
