@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="294306e4-6bf3-47d5-bac8-5d298b1b1981" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/adminBars.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/adminCocktails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +33,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -188,6 +190,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -198,9 +201,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="632" y="215" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.310.1536.824@0.0.1920.1040" timestamp="1606916478686" />
-    <state x="460" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606909883913">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1552" y="458" key="Vcs.Push.Dialog.v2" timestamp="1606922772288">
+      <screen x="-1920" y="310" width="1536" height="824" />
     </state>
+    <state x="-1552" y="458" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.310.1536.824@-1920.310.1536.824" timestamp="1606922772288" />
     <state x="460" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.310.1536.824@0.0.1920.1040" timestamp="1606909883913" />
   </component>
 </project>
