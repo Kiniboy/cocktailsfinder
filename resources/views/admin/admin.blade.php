@@ -20,7 +20,7 @@
         <h1 class="display-4">Gérer les Bars</h1>
         <p class="lead">Ajouter, Editer, Supprimer un Bar</p>
         <hr class="my-4">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Cliquez-ici</a>
+{{--        <a class="btn btn-primary btn-lg" href="{{ URL::route('/admin/bars') }}" role="button">Cliquez-ici</a>--}}
     </div>
     <div class="jumbotron">
         <h1 class="display-4">Voir les Notes</h1>

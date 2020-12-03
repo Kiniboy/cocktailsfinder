@@ -16,7 +16,7 @@ class AdminCocktailController extends Controller
      * @return Factory|Application|View
      */
     public function index() {
-        return view('admin/adminCocktails', ['cocktail'=>Cocktail::get()]);
+        return view('admin/adminCocktails', ['cocktails'=>Cocktail::get()]);
     }
 
     ///////////// METHODES ADMIN ////////////////
