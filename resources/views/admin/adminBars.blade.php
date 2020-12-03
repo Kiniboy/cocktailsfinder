@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -24,23 +25,28 @@
         <thead>
         <tr>
             <th>Nom</th>
-            <th>Actions</th>
+            <th>Adresse</th>
+            <th>Longitude</th>
+            <th>Lattitude</th>
         </tr>
         </thead>
         <tbody>
-        {{--        @foreach($cocktails as $cocktail)--}}
-        <tr>
-            {{--            <td>{{ property.title }}</td>--}}
-            <td>
-                <a href="" class="btn btn-secondary">Éditer</a>
-                <form method="post" action="" class="action" style="display: inline-block" onsubmit="return confirm('Êtes-vous vraiment sur ?)">
-                    <input type="hidden" name="_method" value="DELETE">
-                    <input type="hidden" name="_token" value="">
-                    <button type="submit" class="btn btn-danger">Supprimer</button>
-                </form>
-            </td>
-        </tr>
-        {{--        @endforeach--}}
+        @foreach($bars as $bar)
+            <tr>
+                <td> {{ $bar->name }} </td>
+                <td> {{ $bar->adresse }} </td>
+                <td> {{ $bar->longitude }} </td>
+                <td> {{ $bar->laittude }} </td>
+                <td>
+                    <a href="" class="btn btn-secondary">Éditer</a>
+                    <form method="post" action="" class="action" style="display: inline-block" onsubmit="return confirm('Êtes-vous vraiment sur ?)">
+                        <input type="hidden" name="_method" value="DELETE">
+                        <input type="hidden" name="_token" value="">
+                        <button type="submit" class="btn btn-danger">Supprimer</button>
+                    </form>
+                </td>
+            </tr>
+        @endforeach
         </tbody>
     </table>
     <div class="text-right">

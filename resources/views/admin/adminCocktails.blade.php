@@ -24,23 +24,26 @@
         <thead>
         <tr>
             <th>Nom</th>
-            <th>Actions</th>
+            <th>Composition</th>
+            <th>Action</th>
         </tr>
         </thead>
         <tbody>
-        {{--        @foreach($cocktails as $cocktail)--}}
-        <tr>
+        @foreach($cocktails as $cocktail)
+            <tr>
+                <td>{{ $cocktail->name }}</td>
+                <td>{{ $cocktail->composition }}</td>
 
-            <td>
-                <a href="" class="btn btn-secondary">Éditer</a>
-                <form method="post" action="" class="action" style="display: inline-block" onsubmit="return confirm('Êtes-vous vraiment sur ?)">
-                    <input type="hidden" name="_method" value="DELETE">
-                    <input type="hidden" name="_token" value="">
-                    <button type="submit" class="btn btn-danger">Supprimer</button>
-                </form>
-            </td>
-        </tr>
-        {{--        @endforeach--}}
+                <td>
+                    <a href="" class="btn btn-secondary">Éditer</a>
+                    <form method="post" action="" class="action" style="display: inline-block" onsubmit="return confirm('Êtes-vous vraiment sur ?)">
+                        <input type="hidden" name="_method" value="DELETE">
+                        <input type="hidden" name="_token" value="">
+                        <button type="submit" class="btn btn-danger">Supprimer</button>
+                    </form>
+                </td>
+            </tr>
+        @endforeach
         </tbody>
     </table>
     <div class="text-right">

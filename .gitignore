@@ -12,3 +12,4 @@ npm-debug.log
 yarn-error.log
 /config/app.php
 .idea
+composer.lock

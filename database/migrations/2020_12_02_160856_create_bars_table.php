@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCocktailTable extends Migration
+class CreateBarsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,12 @@ class CreateCocktailTable extends Migration
      */
     public function up()
     {
-        Schema::create('cocktail', function (Blueprint $table) {
+        Schema::create('bars', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('composition');
+            $table->string('adresse');
+            $table->float('longitude');
+            $table->float('laittude');
             $table->timestamps();
         });
     }
@@ -28,6 +30,6 @@ class CreateCocktailTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cocktail');
+        Schema::dropIfExists('bar');
     }
 }
