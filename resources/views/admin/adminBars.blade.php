@@ -33,7 +33,7 @@
             {{--            <td>{{ property.title }}</td>--}}
             <td>
                 <a href="" class="btn btn-secondary">Éditer</a>
-                <form method="post" action="" class="action" style="display: inline-block" onsubmit="return confirm('Êtes-vous vraiment sur ?)">
+                <form method="post" action="" class="action" style="display: inline-block" onsubmit="return confirm('Êtes-vous vraiment sur ?')">
                     <input type="hidden" name="_method" value="DELETE">
                     <input type="hidden" name="_token" value="">
                     <button type="submit" class="btn btn-danger">Supprimer</button>
