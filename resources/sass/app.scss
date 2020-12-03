@@ -1,1 +1,20 @@
-//
+@import url(test.scss);
+p {
+    color: black;
+}
+.bodywithbackground{
+    background-image: url(../img/irish-whiskey-2152126_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bouton-image:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: text-top ;
+    background-color: transparent;
+    background-position : center center;
+    background-repeat:no-repeat;
+}
