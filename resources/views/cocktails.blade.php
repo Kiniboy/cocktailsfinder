@@ -21,7 +21,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5 colone_test">
                 <div class="card" style="width: 18rem;">
                     <img class="img_cards_cocktails" alt="profile Pic">
                     <div class="card-body">
