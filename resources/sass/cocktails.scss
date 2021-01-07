@@ -1,0 +1,19 @@
+.monBouton:before{
+    background-image : url(../img/funnel.svg);
+}
+.card-img-top {
+    content : url(../img/drink-1209002_640.jpg);
+}
+.img_cards_cocktails_like {
+    content : url(../img/heart-fill.svg);
+}
+.btn-group-wrap {
+    text-align: center;
+}
+
+div.btn-group {
+    margin: 0 auto;
+    text-align: center;
+    width: inherit;
+    display: inline-block;
+}
