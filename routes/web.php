@@ -21,5 +21,10 @@ Route::get('/', function () {
 
 Route::get('/admin', 'Admin\AdminController@index');
 Route::get('/admin/cocktails', 'Admin\AdminCocktailController@index');
+Route::get('admin/new/cocktail', 'Admin\AdminCocktailController@create');
+Route::get('cocktail.store', 'Admin\AdminCocktailController@store');
+Route::get('cocktail.update', 'Admin\AdminCocktailController@update');
+
+
 Route::get('/admin/bars', 'Admin\AdminBarController@index');
 //Route::get('/adminbar', array('as' => 'admin/adminBars', adminBar(){}));

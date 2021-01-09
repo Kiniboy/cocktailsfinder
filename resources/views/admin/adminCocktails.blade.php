@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<div class="container mt-4">
+<div class="container mt-4 pt-4 pb-4" style="background: white;">
     <h1>Gérer les cocktails</h1>
 
     {{--    @for(message in app.flashes('success'))--}}
@@ -47,7 +47,7 @@
         </tbody>
     </table>
     <div class="text-right">
-        <a href="" class="btn btn-primary">Créer un nouveau Cocktail</a>
+        <a href="{{ url('admin/new/cocktail') }}" class="btn btn-primary">Créer un nouveau Cocktail</a>
     </div>
 </div>
 </body>

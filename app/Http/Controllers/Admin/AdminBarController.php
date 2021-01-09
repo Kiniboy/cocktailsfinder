@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Bar;
+use App\Cocktail;
 use App\Http\Controllers\Controller;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Foundation\Application;
@@ -21,7 +22,9 @@ class AdminBarController extends Controller
 
     ///////////// METHODES ADMIN ////////////////
 
-    public function new () {}
+    public function new () {
+        $cocktail = new Cocktail();
+    }
 
     public function edit () {}
 

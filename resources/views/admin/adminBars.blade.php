@@ -10,16 +10,15 @@
     <title>Administration des Bars</title>
 </head>
 
-<body>
-<div class="container mt-4">
+<body style="background: #2ab27b">
+<div class="container mt-4 pt-4 pb-4" style="background: white;">
     <h1>Gérer les bars</h1>
 
-    {{--    @for(message in app.flashes('success'))--}}
-
-    {{--    <div class="alert alert-success">--}}
-    {{--        {{ message }}--}}
-    {{--    </div>--}}
-    {{--@endfor--}}
+{{--    @if(Session::has('flash_message'))--}}
+{{--        <div class="alert alert-success">--}}
+{{--            {{ Session::get('flash_message') }}--}}
+{{--        </div>--}}
+{{--    @endif--}}
 
     <table class="table table-stripped">
         <thead>
