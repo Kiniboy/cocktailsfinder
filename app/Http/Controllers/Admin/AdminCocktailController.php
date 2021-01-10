@@ -30,19 +30,18 @@ class AdminCocktailController extends Controller
         return view('admin/cocktailCreate', compact('form'));
     }
 
-    public function store(Cocktail $cocktail, Request $request)
+    public function store()
     {
-        $form = $this->getForm($cocktail);
+        $form = $this->getForm();
 //        dd($form);
         $form->getModel()->save();
-        $cocktail->save();
         return redirect()->route('/admin/cocktails');
     }
 
     public function edit(Cocktail $cocktail)
     {
         $form = $this->getForm($cocktail);
-        return view('cocktail.edit', compact('form'));
+        return view('admin/cocktailEdit', compact('form'));
     }
 
     public function update(Cocktail $cocktail, Request $request)
