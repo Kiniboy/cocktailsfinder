@@ -29,3 +29,7 @@ Route::resource('cocktail','Admin\AdminCocktailController');
 
 Route::get('/admin/bars', 'Admin\AdminBarController@index');
 //Route::get('/adminbar', array('as' => 'admin/adminBars', adminBar(){}));
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
