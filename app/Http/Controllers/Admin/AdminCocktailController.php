@@ -27,21 +27,22 @@ class AdminCocktailController extends Controller
     public function create()
     {
         $form = $this->getForm();
-        return view('admin/cocktailcreate', compact('form'));
+        return view('admin/cocktailCreate', compact('form'));
     }
 
-    public function store()
+    public function store(Cocktail $cocktail, Request $request)
     {
-        $cocktail = new Cocktail();
-        $form = $this->getForm();
+        $form = $this->getForm($cocktail);
+//        dd($form);
         $form->getModel()->save();
+        $cocktail->save();
         return redirect()->route('/admin/cocktails');
     }
 
     public function edit(Cocktail $cocktail)
     {
         $form = $this->getForm($cocktail);
-        return view('posts.edit', compact('form'));
+        return view('cocktail.edit', compact('form'));
     }
 
     public function update(Cocktail $cocktail, Request $request)
@@ -71,7 +72,7 @@ class AdminCocktailController extends Controller
     ///////////// METHODES ADMIN ////////////////
 
     public function viewCreate () {
-        return view('admin/cocktailcreate');
+        return view('admin/cocktail.create');
     }
 
 //    public function store () {
