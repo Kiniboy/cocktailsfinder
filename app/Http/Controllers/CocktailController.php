@@ -11,7 +11,7 @@ class CocktailController extends Controller
 
     /// Vue page Les Cocktails ///
     public function viewCocktails() {
-        return view('cocktails', ['cocktail'=>Cocktail::get()]);
+        return view('cocktails', ['cocktails'=>Cocktail::get()]);
     }
 
     /// Vue page détail d'un cocktail ///

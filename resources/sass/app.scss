@@ -1,4 +1,16 @@
-@import url(cocktails.scss);
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "cocktails.scss";
+
+@import "cocktail.scss";
+
 p {
     color: black;
 }
