@@ -15,7 +15,18 @@ class CocktailController extends Controller
     }
 
     /// Vue page détail d'un cocktail ///
-    public function viewCocktail($cocktail) {
-        return view('cocktail', $cocktail);
+    public function viewCocktail($id) {
+//        dd($cocktail);
+//        Cocktail::get($id);
+        $cocktail = Cocktail::find($id);
+//        dd($cocktail);
+        return view('cocktail', ['cocktail'=> $cocktail]);
     }
+//
+//    public function show($id)
+//    {
+//        return view('/cocktail', [
+//            'cocktail' => Cocktail::findOrFail($id)
+//        ]);
+//    }
 }

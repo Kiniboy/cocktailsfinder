@@ -6,7 +6,7 @@
                 <img class="card-img-top" src="../../public/img/acceuil2.jpg" style="width: 25rem;">
             </div>
             <div class="col-xl-3">
-                <h2 class="titre">{{$cocktail -> name}}</h2>
+                <h2 class="titre">{{$cocktail->name}}</h2>
             </div>
             <div class="col-xl-3">
                 <h2 class="titre">Note du cocktail :</h2>
@@ -24,7 +24,7 @@
         </div>
         <div class="row">
             <div class="col-xl-3">
-                <p>*****</p>
+                <p>{{$cocktail->composition}}</p>
             </div>
         </div>
         <div class="row">

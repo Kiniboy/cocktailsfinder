@@ -47,7 +47,7 @@
         </tbody>
     </table>
     <div class="text-right">
-        <a href="{{ url('cocktail/create') }}" class="btn btn-primary">Créer un nouveau Cocktail</a>
+        <a href="{{ url('admin/cocktail/create') }}" class="btn btn-primary">Créer un nouveau Cocktail</a>
     </div>
 </div>
 </body>

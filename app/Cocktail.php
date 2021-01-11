@@ -11,4 +11,8 @@ class Cocktail extends Model
     private $name;
 
     private $composition;
+
+    public static function findOrFail($id)
+    {
+    }
 }

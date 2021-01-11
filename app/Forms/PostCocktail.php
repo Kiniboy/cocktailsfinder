@@ -14,8 +14,8 @@ class PostCocktail extends Form
 //            $method = 'PUT';
 //            $label = "Editer le cocktail";
 //        } else {
-            $url = route('postcocktail');
-            $method = 'POST';
+//            $url = route('cocktail.update');
+//            $method = 'POST';
             $label = "Créer le cocktail";
 //        }
 
@@ -34,8 +34,8 @@ class PostCocktail extends Form
             ->add('submit', 'submit', ['label' => $label]);
 
         $this->formOptions = [
-            'method' => $method,
-            'url' => $url
+//            'method' => $method,
+//            'url' => $url
         ];
     }
 }
