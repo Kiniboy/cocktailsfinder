@@ -1,93 +1,99 @@
 @include('layout.header')
 <body class="bodyWithBackground">
-    <div class="container">
-        <div class="row justify-content-center">
-            <h1>Cocktails</h1>
-        </div>
-        <div class="row justify-content-center" >
-            <div class="col-lg-3">
-                <button class="btn btn-primary bouton-image monBouton" type="submit">Filtrer</button>
-            </div>
-            <div class="col-lg-3">
-                <button class="btn btn-primary" type="submit">Nom</button>
-            </div>
-            <div class="col-lg-3">
-                <button class="btn btn-primary" type="submit">Alcool</button>
-            </div>
-            <div class="col-lg-3">
-                <button class="btn btn-primary" type="submit">Couleur</button>
-            </div>
+    <div class="btn-toolbar">
+        <div class="btn-group">
+            <button href="#" class="button">1</button>
+            <button href="#" class="button">2</button>
+            <button href="#" class="button">3</button>
+            <button href="#" class="button">4</button>
+            <button href="#" class="button">5</button>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-                <div class="card" style="width: 18rem;">
-                    <img class="img_cards_cocktails" alt="profile Pic">
+            <div class="col-sm-6 col-lg-3 py-2">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="//placehold.it/500x200" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <img class="img_cards_cocktails_like" alt="profile Pic">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a longer card with supporfgfgfgfgfgfgfgfgfgfgfgfgfgffggting text below as a natural.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-                <div class="card" style="width: 18rem;">
-                    <img class="img_cards_cocktails" alt="profile Pic">
+            <div class="col-sm-6 col-lg-3 py-2">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <img class="img_cards_cocktails_like" alt="profile Pic">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-                <div class="card" style="width: 18rem;">
-                    <img class="img_cards_cocktails" alt="profile Pic">
+            <div class="col-sm-6 col-lg-3 py-2">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="//placehold.it/500x180" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <img class="img_cards_cocktails_like" alt="profile Pic">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in.
+                            Aliquam codeply justo.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-                <div class="card" style="width: 18rem;">
-                    <img class="img_cards_cocktails" alt="profile Pic">
+            <div class="col-sm-6 col-lg-3 py-2">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <img class="img_cards_cocktails_like" alt="profile Pic">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-                <div class="card" style="width: 18rem;">
-                    <img class="img_cards_cocktails" alt="profile Pic">
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-lg-3 py-2">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="//placehold.it/500x200" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <img class="img_cards_cocktails_like" alt="profile Pic">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a longer card with supporfgfgfgfgfgfgfgfgfgfgfgfgfgffggting text below as a natural.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-                <div class="card" style="width: 18rem;">
-                    <img class="img_cards_cocktails" alt="profile Pic">
+            <div class="col-sm-6 col-lg-3 py-2">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <img class="img_cards_cocktails_like" alt="profile Pic">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 py-2">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="//placehold.it/500x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in.
+                            Aliquam codeply justo.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 py-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 </body>
 @include('layout.footer')
