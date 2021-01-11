@@ -17,6 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
 
 ///// Routes Interface Admin /////
 Route::get('/admin', 'Admin\AdminController@index');
@@ -33,4 +37,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 ///// Routes Coktails Front /////
 Route::get('/cocktails', 'CocktailController@viewCocktails');
-Route::get('/cocktail', 'CocktailController@viewCocktail');
+Route::get('/cocktail','CocktailController@viewCocktail');
