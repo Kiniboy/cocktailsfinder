@@ -22,7 +22,6 @@
               integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
               crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
-        <!-- rating.js file -->
         <script src="js/addons/rating.js"></script>
         <title>Cocktailfinder</title>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -58,7 +57,7 @@
                 <img class="card-img-top" src="../../public/img/acceuil2.jpg" style="width: 25rem;">
             </div>
             <div class="col-xl-3">
-                <h1 class="titre">Nom Cocktail</h1>
+                <h1 class="titre">Titre cocktail</h1>
             </div>
             <div class="col-xl-3">
                 <h1 class="titre">Note du cocktail :</h1>
@@ -76,7 +75,7 @@
         </div>
         <div class="row">
             <div class="col-xl-3">
-                <p>Ingrédients from back *for_from_back*</p>
+                <p>*****</p>
             </div>
         </div>
         <div class="row">
@@ -116,15 +115,10 @@
                 };
             </script>
         </div>
+
     </div>
     </body>
-    <footer class="page-footer font-small blue fixed-bottom">
-
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="http://www.cesi.fr"> Site réalisé dans le cadre de la formation RIL 2019</a>
-        </div>
-
-    </footer>
+    @include('layout.footer')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
         $('.navTrigger').click(function () {
