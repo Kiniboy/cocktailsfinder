@@ -3,9 +3,12 @@
 }
 .card-img-top {
     content : url(../img/drink-1209002_640.jpg);
+    object-fit: contain;
+    width: 100%;
 }
 .img_cards_cocktails_like {
     content : url(../img/heart-fill.svg);
+
 }
 .btn-group-wrap {
     text-align: center;
