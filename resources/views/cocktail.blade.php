@@ -57,10 +57,10 @@
                 <img class="card-img-top" src="../../public/img/acceuil2.jpg" style="width: 25rem;">
             </div>
             <div class="col-xl-3">
-                <h1 class="titre">Titre cocktail</h1>
+                <h2 class="titre">Titre cocktail</h2>
             </div>
             <div class="col-xl-3">
-                <h1 class="titre">Note du cocktail :</h1>
+                <h2 class="titre">Note du cocktail :</h2>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -80,7 +80,7 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-                <h4 class="titre">Vous pouvez trouver ce Cocktail ici :</h4>
+                <h3 class="titre">Vous pouvez trouver ce Cocktail ici :</h3>
             </div>
         </div>
         <div class="col-md-3">
@@ -108,14 +108,12 @@
                         maxZoom: 20
                     }).addTo(macarte);
                 }
-
                 window.onload = function () {
                     // Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
                     initMap();
                 };
             </script>
         </div>
-
     </div>
     </body>
     @include('layout.footer')
@@ -129,8 +127,6 @@
 
         });
     </script>
-
-    <!-- Function used to shrink nav bar removing paddings and adding black background -->
     <script>
         $(window).scroll(function () {
             if ($(document).scrollTop() > 50) {
