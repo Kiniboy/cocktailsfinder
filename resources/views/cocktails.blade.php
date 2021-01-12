@@ -3,13 +3,12 @@
 <!-- card template -->
     <div class="container-fluid">
         @foreach($cocktails as $cocktail)
-            @if ($loop->index % 4 and $loop->first > 0)
+            @if ($loop->first)
+                <div class="row">
+                @include('layout.card-template')
+            @elseif ($loop->last)
+                @include('layout.card-template')
                 </div>
-                <div class="row">
-                @include('layout.card-template')
-            @elseif ($loop->first)
-                <div class="row">
-                @include('layout.card-template')
             @else
                 @include('layout.card-template')
             @endif

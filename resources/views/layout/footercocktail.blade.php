@@ -70,4 +70,9 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </footer>
+<script src="jquery.min.js"></script>
+<script src="jquery.cookie.min.js"></script>
+<link rel="stylesheet" href="jquery.starz.css">
+<script src="jquery.starz.js"></script>
+
 </html>
