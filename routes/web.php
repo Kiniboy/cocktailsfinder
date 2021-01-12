@@ -21,20 +21,39 @@ Route::get('/aboutus', function () {
     return view('aboutus');
 });
 
+///// ROUTES FRONT ////////////////////////
 
-///// Routes Interface Admin /////
-Route::get('/admin', 'Admin\AdminController@index');
-//Route::get('admin/new/cocktail', 'Admin\AdminCocktailController@create');
-//Route::get('cocktail/create', 'Admin\AdminCocktailController@create');
-Route::post('/cocktail/store', 'Admin\AdminCocktailController@store')->name('postcocktail');
-//Route::get('cocktail/update', 'Admin\AdminCocktailController@update');
-Route::resource('admin/cocktail','Admin\AdminCocktailController');
-Route::get('/admin/bars', 'Admin\AdminBarController@index');
-//Route::get('/adminbar', array('as' => 'admin/adminBars', adminBar(){}));
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
-
-///// Routes Coktails Front /////
 Route::get('/cocktails', 'CocktailController@viewCocktails');
 Route::get('/cocktail/{id}','CocktailController@viewCocktail');
-//Route::get('/cocktail/{id}', 'CocktailController@show');
+
+///// ROUTES ADMIN ////////////////////////
+
+// AUTH //
+
+Auth::routes();
+
+// ADMIN //
+
+Route::get('/admin', 'Admin\AdminController@index');
+
+// COCKTAILS //
+
+Route::get('/admin/cocktails', 'Admin\AdminCocktailController@index');
+Route::post('/cocktail/store', 'Admin\AdminCocktailController@store')->name('postcocktail');
+Route::resource('admin/cocktail','Admin\AdminCocktailController');
+
+// BARS //
+
+Route::get('/admin/bars', 'Admin\AdminBarController@index');
+Route::post('/bar/store', 'Admin\AdminBarController@store')->name('postbar');
+Route::resource('admin/bar','Admin\AdminBarController');
+
+// NOTES //
+
+Route::get('/admin/notes', 'Admin\AdminNoteController@index');
+Route::resource('admin/note','Admin\AdminNoteController');
+
+// COMMENTS //
+
+
+

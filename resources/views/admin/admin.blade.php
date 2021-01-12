@@ -25,12 +25,12 @@
     <div class="jumbotron">
         <h1 class="display-4">Voir les Notes</h1>
         <hr class="my-4">
-        <a class="btn btn-primary btn-lg" href="" role="button">Cliquez-ici</a>
+        <a class="btn btn-primary btn-lg" href="{{ url('admin/notes') }}" role="button">Cliquez-ici</a>
     </div>
     <div class="jumbotron">
         <h1 class="display-4">Voir les commentaires</h1>
         <hr class="my-4">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Cliquez-ici</a>
+        <a class="btn btn-primary btn-lg" href="{{ url('admin/comments') }}" role="button">Cliquez-ici</a>
     </div>
 </div>
 </body>

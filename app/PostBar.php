@@ -3,6 +3,7 @@
 namespace App;
 
 use Kris\LaravelFormBuilder\Form;
+use App\Bar;
 
 class PostBar extends Form
 {
