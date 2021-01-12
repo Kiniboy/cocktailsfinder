@@ -4,7 +4,7 @@
         <div class="card-body">
             <h4 class="card-title">{{$cocktail->name}}</h4>
             <p class="card-text">{{$cocktail->composition}}</p>
-            <a href="cocktail/{{$cocktail->id}}" class="btn btn-primary align-content-end">Détails</a>
+            <a href="cocktail/{{$cocktail->id}}" class="btn btn-primary">Détails</a>
         </div>
     </div>
 </div>

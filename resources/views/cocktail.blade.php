@@ -1,4 +1,4 @@
-@include('layout.headercocktails')
+@include('layout.header')
 <body style="background-color: black">
     <div class="container pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
         <div class="jumbotron bg-dark">
@@ -10,7 +10,7 @@
         </div>
     </div>
 </body>
-@include('layout.footercocktail')
+@include('layout.footer')
 
 
 
