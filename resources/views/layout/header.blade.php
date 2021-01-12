@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav nav-fill w-100">
                 <li class="nav-item active">
-                    <a class="nav-link" href="cocktails">COCKTAILS <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/" ><img class = "logonavbar"> </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="cocktails">COCKTAILS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="aboutus">A PROPOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ESPACE MEMBRE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="login">S'INSCRIRE/SE CONNECTER</a>

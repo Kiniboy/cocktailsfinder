@@ -10,14 +10,23 @@
 @import "cocktails.scss";
 
 @import "cocktail.scss";
-
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
 p {
     color: black;
 }
-.bodywithbackground{
-    background-image: url(../img/irish-whiskey-2152126_1920.jpg);
+body {
+    background-image: url(../img/wisky_love.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.logonavbar {
+    content : url(../img/cocktail-svgrepo-com_1_1.svg);
+    width: 30px;
 }
 .bouton-image:before {
     content: "";
