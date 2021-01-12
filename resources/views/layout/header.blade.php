@@ -35,4 +35,5 @@
             </ul>
         </div>
     </nav>
+    <img class = "headerimage"/>
 </head>

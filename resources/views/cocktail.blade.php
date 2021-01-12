@@ -10,6 +10,7 @@
             </div>
             <div class="col-xl-3">
                 <h2 class="titre">Note du cocktail :</h2>
+
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>

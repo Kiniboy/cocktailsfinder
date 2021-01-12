@@ -1,12 +1,12 @@
 <!-- Footer -->
-<footer class="page-footer font-small blue fixed-bottom">
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
         <a href="http://www.cesi.fr"> Site réalisé dans le cadre de la formation RIL 2019</a>
     </div>
 
-</footer>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
     $('.navTrigger').click(function () {
@@ -69,4 +69,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+</footer>
 </html>

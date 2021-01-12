@@ -20,8 +20,26 @@ p {
     color: black;
 }
 body {
+    background-color: #1b1e21!important;
+}
+.titreAcceuil{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.display-4 {
+    color: grey;
+}
+.lead {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.headerimage {
+    margin: fill;
+    height: 350px;
+    width: 100%;
     background-image: url(../img/wisky_love.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .logonavbar {
