@@ -24,7 +24,6 @@ Route::get('/aboutus', function () {
 
 ///// Routes Interface Admin /////
 Route::get('/admin', 'Admin\AdminController@index');
-Route::get('/admin/cocktails', 'Admin\AdminCocktailController@index');
 //Route::get('admin/new/cocktail', 'Admin\AdminCocktailController@create');
 //Route::get('cocktail/create', 'Admin\AdminCocktailController@create');
 Route::post('/cocktail/store', 'Admin\AdminCocktailController@store')->name('postcocktail');

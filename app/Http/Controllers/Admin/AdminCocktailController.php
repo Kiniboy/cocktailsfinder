@@ -30,12 +30,11 @@ class AdminCocktailController extends Controller
         return view('admin/cocktailCreate', compact('form'));
     }
 
-    public function store()
+    public function store(Request $request)
     {
-        $form = $this->getForm();
-//        dd($form);
-        $form->getModel()->save();
-        return redirect()->route('/admin/cocktails');
+        $cocktail = new Cocktail();
+        $cocktail->fill($request->only(['name', 'composition']))->save();
+        return redirect()->route('cocktail.index');
     }
 
     public function edit(Cocktail $cocktail)
@@ -46,10 +45,8 @@ class AdminCocktailController extends Controller
 
     public function update(Cocktail $cocktail, Request $request)
     {
-        $form = $this->getForm($cocktail);
-        $form->redirectIfNotValid();
-        $cocktail->save();
-        return redirect()->route('/admin/cocktails');
+        $cocktail->fill($request->only(['name', 'composition']))->save();
+        return redirect()->route('cocktail.index');
     }
 
     private function getForm(?Cocktail $cocktail = null): \Kris\LaravelFormBuilder\Form
@@ -74,6 +71,8 @@ class AdminCocktailController extends Controller
         return view('admin/cocktail.create');
     }
 
+//        public function delete () {}
+
 //    public function store () {
 ////        dd($request->all());
 ////        $name = $request->input('nom');
@@ -89,6 +88,6 @@ class AdminCocktailController extends Controller
 //
 //    }
 //
-//    public function delete () {}
+
 
 }

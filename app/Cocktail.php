@@ -12,7 +12,8 @@ class Cocktail extends Model
 
     private $composition;
 
-    public static function findOrFail($id)
-    {
-    }
+    protected $fillable = [
+        'name',
+        'composition'
+    ];
 }

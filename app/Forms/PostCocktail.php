@@ -9,21 +9,21 @@ class PostCocktail extends Form
 {
     public function buildForm()
     {
-//        if ($this->getModel() && $this->getModel()->id) {
-//            $url = route('cocktail/update', $this->getModel()->id);
-//            $method = 'PUT';
-//            $label = "Editer le cocktail";
-//        } else {
-//            $url = route('cocktail.update');
-//            $method = 'POST';
+        if ($this->getModel() && $this->getModel()->id) {
+            $url = route('cocktail.update', $this->getModel()->id);
+            $method = 'PUT';
+            $label = "Editer le cocktail";
+        } else {
+            $url = route('cocktail.store');
+            $method = 'POST';
             $label = "Créer le cocktail";
-//        }
+        }
 
         $this
             ->add('name', 'text', [
                 'label' => 'Nom',
             ])
-            ->add('content', 'textarea', [
+            ->add('composition', 'textarea', [
                 'label' => 'Composition',
             ])
             ->add('cocktail', 'entity', [
@@ -34,8 +34,8 @@ class PostCocktail extends Form
             ->add('submit', 'submit', ['label' => $label]);
 
         $this->formOptions = [
-//            'method' => $method,
-//            'url' => $url
+            'method' => $method,
+            'url' => $url
         ];
     }
 }

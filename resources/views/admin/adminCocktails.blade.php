@@ -35,7 +35,7 @@
                 <td>{{ $cocktail->composition }}</td>
 
                 <td>
-                    <a href="{{ url('cocktail.update') }}" class="btn btn-secondary">Éditer</a>
+                    <a href="{{ route('cocktail.edit', $cocktail->id) }}" class="btn btn-secondary">Éditer</a>
                     <form method="post" action="" class="action" style="display: inline-block" onsubmit="return confirm('Êtes-vous vraiment sur ?)">
                         <input type="hidden" name="_method" value="DELETE">
                         <input type="hidden" name="_token" value="">
