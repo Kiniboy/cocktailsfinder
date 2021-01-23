@@ -15,10 +15,13 @@ class CreateBarsTable extends Migration
     {
         Schema::create('bars', function (Blueprint $table) {
             $table->id();
+            $table->foreign('id')
+                  ->references('id')
+                  ->on('cocktails')->onDelete('cascade');
             $table->string('name');
             $table->string('adresse');
             $table->float('longitude');
-            $table->float('laittude');
+            $table->float('latitude');
             $table->timestamps();
         });
     }

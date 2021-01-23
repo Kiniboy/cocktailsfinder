@@ -15,6 +15,9 @@ class CreateCocktailsTable extends Migration
     {
         Schema::create('cocktails', function (Blueprint $table) {
             $table->id();
+            $table->foreign('id')
+                ->references('id')
+                ->on('bars')->onDelete('cascade');
             $table->string('name');
             $table->string('composition');
             $table->timestamps();

@@ -16,4 +16,10 @@ class Cocktail extends Model
         'name',
         'composition'
     ];
+
+    public function bars(){
+        return $this->belongsToMany(Bar::class);
+    }
+
+
 }

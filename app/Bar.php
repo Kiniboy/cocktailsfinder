@@ -22,4 +22,8 @@ class Bar extends Model
         'longitude',
         'laittude'
     ];
+
+    public function cocktails(){
+        return $this->belongsToMany(Cocktail::class);
+    }
 }

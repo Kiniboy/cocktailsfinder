@@ -30,7 +30,7 @@
                     <a class="nav-link" href="aboutus">A PROPOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login">S'INSCRIRE/SE CONNECTER</a>
+                    <a class="nav-link" href="aboutus">S'INSCRIRE/SE CONNECTER</a>
                 </li>
             </ul>
         </div>
