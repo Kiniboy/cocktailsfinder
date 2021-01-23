@@ -82,12 +82,4 @@ class AdminCocktailController extends Controller
 ////        return redirect('admin/adminCocktails', 302);
 //    }
 
-
-//
-//    public function edit () {
-//
-//    }
-//
-
-
 }

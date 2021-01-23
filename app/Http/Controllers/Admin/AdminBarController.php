@@ -53,9 +53,9 @@ class AdminBarController extends Controller
         return view('admin/barEdit', compact('form'));
     }
 
-    public function update(Cocktail $cocktail, Request $request)
+    public function update(Bar $bar, Request $request)
     {
-        $cocktail->fill($request->only(['name', 'composition']))->save();
+        $bar->fill($request->only(['name', 'composition']))->save();
         return redirect()->route('bar.index');
     }
 
