@@ -15,7 +15,7 @@ class CreateBarsTable extends Migration
     {
         Schema::create('bars', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('id_cocktail')
+            $table->foreignId('id_cocktail')->nullable(true)
                   ->references('id')
                   ->on('cocktails')->onDelete('cascade');
             $table->string('name');
@@ -33,6 +33,6 @@ class CreateBarsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('bar');
+        Schema::dropIfExists('bars');
     }
 }

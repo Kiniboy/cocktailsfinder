@@ -10,6 +10,9 @@
 @import "cocktails.scss";
 
 @import "cocktail.scss";
+
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
 h1 {
     color: white;
 }
@@ -20,7 +23,9 @@ p {
     color: black;
 }
 body {
-    background-color: #1b1e21!important;
+    background-image: url(../img/acceuil.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
 }
 .titreAcceuil{
     font-size: 3.5rem;
@@ -37,9 +42,9 @@ body {
 }
 .headerimage {
     margin: fill;
-    height: 350px;
+    height: 100%;
     width: 100%;
-    background-image: url(../img/wisky_love.jpg);
+    //background-image: url(../img/acceuil.jpg);
     background-size: cover;
 }
 .logonavbar {
@@ -57,3 +62,12 @@ body {
     background-position : center center;
     background-repeat:no-repeat;
 }
+
+.navbar {
+    //opacity: 0.5;
+    background-color: #6f42c1 !important;
+    height: 100px;
+    opacity: 0.7;
+}
+
+

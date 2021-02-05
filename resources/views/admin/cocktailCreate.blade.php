@@ -32,4 +32,4 @@
 {{--    </div>--}}
 {{--    <a href="{{ url('admin/cocktails') }}" type="submit" class="btn btn-primary">Créer</a>--}}
 {{--</form>--}}
-{{--</body>--}}
+</body>

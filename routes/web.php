@@ -52,6 +52,7 @@ Route::resource('admin/bar','Admin\AdminBarController');
 
 Route::get('/admin/notes', 'Admin\AdminNoteController@index');
 Route::resource('admin/note','Admin\AdminNoteController');
+Route::post('/rating/{cocktail}', 'NotesController@postStar')->name('postStar');
 
 // COMMENTS //
 

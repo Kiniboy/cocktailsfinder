@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Bar;
 use App\Cocktail;
 use App\Http\Controllers\Controller;
-use App\PostBar;
+use App\Forms\PostBar;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Foundation\Application;
 use Illuminate\Http\Request;
@@ -32,6 +32,7 @@ class AdminBarController extends Controller
     public function __construct(FormBuilder $formBuilder)
     {
         $this->formBuilder = $formBuilder;
+        $this->middleware('auth');
     }
 
     public function create()
@@ -43,7 +44,7 @@ class AdminBarController extends Controller
     public function store(Request $request)
     {
         $bar = new Bar();
-        $bar->fill($request->only(['name', 'composition']))->save();
+        $bar->fill($request->only(['name', 'adresse', 'longitude', 'latitude']))->save();
         return redirect()->route('bar.index');
     }
 

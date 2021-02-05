@@ -3,15 +3,10 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use willvincent\Rateable\Rating;
 
 class Cocktail extends Model
 {
-    protected $primaryKey = 'id';
-
-    private $name;
-
-    private $composition;
-
     protected $fillable = [
         'name',
         'composition'
@@ -19,6 +14,11 @@ class Cocktail extends Model
 
     public function bars(){
         return $this->belongsToMany(Bar::class);
+    }
+
+    public function rating()
+    {
+        return $this->hasMany(Rating::class);
     }
 
 
