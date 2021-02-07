@@ -22,22 +22,26 @@ p {
     color: black;
 }
 body {
-    background-image: url(../img/acceuil.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
+    background-color: black !important;
 }
 
 .app-title {
+    background-image: url(../img/drink-1870139_1920.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
-    height: 300px;
-    font-size: 100px;
+    height: 500px;
+    font-size: 80px;
     margin: auto;
+    padding: 50px;
+    text-align: center;
     justify-content: center;
     text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;color:#FFD100;
 }
 
 .display-4 {
-    color: grey;
+    color: black;
 }
 .lead {
     font-size: 3.5rem;
@@ -69,10 +73,11 @@ body {
 
 .navbar {
     //opacity: 0.5;
-    background-color: #6f42c1 !important;
+    background-color: black !important;
     color: #6f42c1;
     height: 100px;
-    opacity: 0.7;
+    opacity: 0.9;
+    border-bottom: 1px solid #6f42c1;
 }
 
 .pricing-header {

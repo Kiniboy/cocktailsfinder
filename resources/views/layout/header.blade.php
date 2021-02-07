@@ -13,7 +13,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
     <title>Cocktailfinder</title>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
