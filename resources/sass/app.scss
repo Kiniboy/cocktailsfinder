@@ -19,7 +19,7 @@ h2 {
     color: white;
 }
 p {
-    color: white;
+    //color: white;
 }
 body {
     background-color: black !important;
@@ -134,16 +134,17 @@ li a:hover:after {
     height: 600px;
     display: flex;
     background-color: #FFFFFF;
+    color: #56257E;
     &__image {
         margin: 40px 40px 0 0;
         width: 150px;
         object-fit: contain;
         align-self: flex-start;
-        background: url(../img/acceuil.jpg);
     }
     &__text {
         flex: 1 1 auto;
         padding: 40px 40px 0 0;
+
     }
 }
 
@@ -153,6 +154,7 @@ li a:hover:after {
     height: 600px;
     display: flex;
     background-color: #56257E;
+    color: white !important;
     &__image {
         margin: 40px 40px 0 0;
         width: 150px;
@@ -161,6 +163,8 @@ li a:hover:after {
     }
     &__text {
         flex: 1 1 auto;
+        padding: 40px 40px 0 0;
+
     }
 }
 
