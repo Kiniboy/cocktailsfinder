@@ -111,15 +111,21 @@ li a:hover:after {
 
 //////// MID APP /////////
 
+.container {
+    margin : 0 !important;
+    position: center;
+    max-width: 1600px !important;
+}
+
 .jumbotron {
     color: white !important;
 }
 
 .divider-app {
-    border-top: 3px solid #6f42c1;
+    border-top: 1px solid #6f42c1;
     width: 600px;
     position: center;
-    transition: width .5s ease, background-color .5s ease;
+    transition: width .5s ease, color .5s ease;
 }
 
 #article-right {
@@ -127,6 +133,7 @@ li a:hover:after {
     padding: 50px 40px 40px;
     height: 600px;
     display: flex;
+    background-color: #FFFFFF;
     &__image {
         margin: 40px 40px 0 0;
         width: 150px;
@@ -145,6 +152,7 @@ li a:hover:after {
     padding: 20px 40px 40px;
     height: 600px;
     display: flex;
+    background-color: #56257E;
     &__image {
         margin: 40px 40px 0 0;
         width: 150px;
