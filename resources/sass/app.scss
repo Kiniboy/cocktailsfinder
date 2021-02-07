@@ -33,13 +33,9 @@ body {
     font-size: 100px;
     margin: auto;
     justify-content: center;
+    text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;color:#FFD100;
 }
 
-.titreAcceuil{
-    font-size: 3.5rem;
-    font-weight: bold;
-    line-height: 1.2;
-}
 .display-4 {
     color: grey;
 }
@@ -74,6 +70,7 @@ body {
 .navbar {
     //opacity: 0.5;
     background-color: #6f42c1 !important;
+    color: #6f42c1;
     height: 100px;
     opacity: 0.7;
 }
@@ -82,3 +79,26 @@ body {
     //background-color: #6f42c1 !important;
 }
 
+li{display:inline-block;min-width:50px;}
+li a {
+    text-decoration:none;
+    line-height: 50px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.3em;
+    color: #6f42c1;
+    text-transform: uppercase;
+}
+li a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 5px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+li a:hover:after {
+    width: 90%;
+    background: #444;
+}
