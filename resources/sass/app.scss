@@ -19,11 +19,13 @@ h2 {
     color: white;
 }
 p {
-    color: black;
+    color: white;
 }
 body {
     background-color: black !important;
 }
+
+///////// HEAD APP ///////
 
 .app-title {
     background-image: url(../img/drink-1870139_1920.jpg);
@@ -31,7 +33,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
-    height: 500px;
+    height: 600px;
     font-size: 80px;
     margin: auto;
     padding: 50px;
@@ -41,20 +43,14 @@ body {
 }
 
 .display-4 {
-    color: black;
+    color: white;
 }
 .lead {
     font-size: 3.5rem;
     font-weight: bold;
     line-height: 1.2;
 }
-.headerimage {
-    //margin: fill;
-    //height: 100%;
-    //width: 100%;
-    //background-image: url(../img/acceuil.jpg);
-    //background-size: cover;
-}
+
 .logonavbar {
     content : url(../img/cocktail-svgrepo-com_1_1.svg);
     width: 30px;
@@ -101,9 +97,65 @@ li a:after {
     height: 5px;
     width: 0;
     background: transparent;
+    text-decoration:none;
     transition: width .5s ease, background-color .5s ease;
 }
 li a:hover:after {
     width: 90%;
     background: #444;
+    color: #6f42c1;
+    text-decoration:none;
 }
+
+//////////////////////////
+
+//////// MID APP /////////
+
+.jumbotron {
+    color: white !important;
+}
+
+.divider-app {
+    border-top: 3px solid #6f42c1;
+    width: 600px;
+    position: center;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+#article-right {
+
+    padding: 50px 40px 40px;
+    height: 600px;
+    display: flex;
+    &__image {
+        margin: 40px 40px 0 0;
+        width: 150px;
+        object-fit: contain;
+        align-self: flex-start;
+        background: url(../img/acceuil.jpg);
+    }
+    &__text {
+        flex: 1 1 auto;
+        padding: 40px 40px 0 0;
+    }
+}
+
+#article-left {
+
+    padding: 20px 40px 40px;
+    height: 600px;
+    display: flex;
+    &__image {
+        margin: 40px 40px 0 0;
+        width: 150px;
+        object-fit: contain;
+        align-self: flex-end;
+    }
+    &__text {
+        flex: 1 1 auto;
+    }
+}
+
+/////////////////////////////
+
+//////// BOTTOM APP /////////

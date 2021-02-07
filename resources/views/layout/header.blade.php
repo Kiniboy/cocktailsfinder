@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav nav-fill w-100">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/" ><img class = "logonavbar"> </a>
+                    <a class="nav-link" href="/" ><img class="logonavbar"> </a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="cocktails">COCKTAILS</a>
