@@ -1,12 +1,15 @@
 @include('layout.header')
     <body>
 
-    <div class="container text-center">
+    <div class="container ">
         <div class="app-top">
-            <h1 class="app-title">CocktailsFinder</h1>
-            <div class="article-buttons"><a class="white" href="#">
-                    <p><span class="bg"></span><span class="base"></span><span class="text">Chercher un Cocktail</span></p></a><a class="white" href="#">
-                    <p><span class="bg"></span><span class="base"></span><span class="text">Chercher un Bar</span></p></a>
+            <h1 class="app-title text-center">CocktailsFinder</h1>
+            <div class="search-filter">
+                    <input type="text" placeholder="Trouver mon bonheur..">
+                <div class="article-buttons"><a href="#">
+                        <p><span class="bg"></span><span class="base"></span><span class="text">Chercher dans les Cocktails</span></p></a><a class="white" href="#">
+                        <p><span class="bg"></span><span class="base"></span><span class="text">Chercher dans les Bars</span></p></a>
+                </div>
             </div>
         </div>
         <div class="app-center">
@@ -17,20 +20,20 @@
                     <hr class="my-4">
                     <p> Cherchez ou laissez vous tenter par un de nos nombreux cocktails et <br>nous vous indiquerons ou vous pourrez le trouver !</p>
                     <p class="lead">
-                    <div class="article-buttons"><a href="#">
-                            <p><span class="bg"></span><span class="base"></span><span class="text">Trouver un Bar</span></p></a><a class="white" href="#">
-                            <p><span class="bg"></span><span class="base"></span><span class="text">Trouver un Cocktail</span></p></a>
-                    </div>
+{{--                    <div class="article-buttons"><a href="#">--}}
+{{--                            <p><span class="bg"></span><span class="base"></span><span class="text">Chercher un Cocktail</span></p></a><a class="white" href="#">--}}
+{{--                            <p><span class="bg"></span><span class="base"></span><span class="text">Chercher un Bar</span></p></a>--}}
+{{--                    </div>--}}
                     </p>
                 </div>
             </div>
 
             <div class="container">
-                <div class="article-buttons"><a href="#">
-                        <p><span class="bg"></span><span class="base"></span><span class="text">Trouver un Bar</span></p></a><a class="white" href="#">
-                        <p><span class="bg"></span><span class="base"></span><span class="text">Trouver un Cocktail</span></p></a><a class="transparent" href="#">
-                        <p><span class="bg"></span><span class="base"></span><span class="text">Noter</span></p></a>
-                </div>
+{{--                <div class="article-buttons"><a href="#">--}}
+{{--                        <p><span class="bg"></span><span class="base"></span><span class="text">Trouver un Bar</span></p></a><a class="white" href="#">--}}
+{{--                        <p><span class="bg"></span><span class="base"></span><span class="text">Trouver un Cocktail</span></p></a><a class="transparent" href="#">--}}
+{{--                        <p><span class="bg"></span><span class="base"></span><span class="text">Noter</span></p></a>--}}
+{{--                </div>--}}
             </div>
 {{--            <div class="jumbotron" style="background-color: rgba(255, 255, 255, .5);">--}}
 {{--                <p class="lead">Le site regroupant les différents cocktails disponibles dans la ville de Toulouse.</p>--}}

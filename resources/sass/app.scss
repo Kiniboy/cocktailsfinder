@@ -72,6 +72,8 @@ body {
     background-repeat:no-repeat;
 }
 
+//////////// NAVAR ////////////////
+
 .navbar {
     //opacity: 0.5;
     background-color: black !important;
@@ -112,7 +114,21 @@ li a:hover:after {
     text-decoration:none;
 }
 
-//////////////////////////
+/////////////////////////////////////
+
+////////// SEARCH FILTER ////////////
+
+.search-filter input[type=text] {
+    width: 100%;
+    max-width: 340px;
+    margin-top: 5rem;
+    padding: 6px;
+    border: none;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+////////////////////////////////////
 
 //////// MID APP /////////
 
@@ -177,11 +193,11 @@ li a:hover:after {
 
 .article-buttons {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     //height: 100vh;
-    align-items: center;
-    justify-content: center;
+    //align-items: center;
+    //justify-content: center;
     flex-flow: column;
     & a {
         width: 100%;
