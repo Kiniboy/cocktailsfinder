@@ -7,7 +7,7 @@
         </div>
         <div class="app-center">
             <div class="container" id="article-right">
-                <img class="container__image" src="../img/accueil.jpg">
+                <img class="container__image" src="../../public/img/acceuil.jpg">
                 <div class="container__text">
                     <p class="lead">VOS SAVOUREUX COCKTAILS SUR TOULOUSE</p>
                     <hr class="my-4">
