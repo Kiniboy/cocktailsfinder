@@ -1,6 +1,8 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:wght@500&display=swap');
 
 // Variables
 @import 'variables';
@@ -27,16 +29,19 @@ body {
 
 ///////// HEAD APP ///////
 
-.app-title {
+.app-top {
     background-image: url(../img/drink-1870139_1920.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Dancing Script', cursive;
     height: 600px;
-    font-size: 80px;
-    margin: auto;
     padding: 50px;
+    margin: auto;
+}
+
+.app-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
     text-align: center;
     justify-content: center;
     text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;color:#FFD100;
@@ -133,7 +138,7 @@ li a:hover:after {
     padding: 50px 40px 40px;
     height: 600px;
     display: flex;
-    background-color: #FFFFFF;
+    background-color: $base;
     color: #56257E;
     &__image {
         margin: 40px 40px 0 0;
@@ -144,7 +149,7 @@ li a:hover:after {
     &__text {
         flex: 1 1 auto;
         padding: 40px 40px 0 0;
-
+        align-self: flex-end;
     }
 }
 
@@ -164,10 +169,145 @@ li a:hover:after {
     &__text {
         flex: 1 1 auto;
         padding: 40px 40px 0 0;
+        align-self: flex-start;
 
+    }
+}
+
+
+.article-buttons {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+    display: flex;
+    //height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    & a {
+        width: 100%;
+        max-width: 340px;
+        height: $height;
+        padding: 8px;
+        font-size: 0.8rem;
+        font-weight: 900;
+        color: #6f42c1;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        box-shadow: 0 0 0 1px inset rgba($white, 0.3);
+        position: relative;
+        margin: 10px 0;
+        &.white:hover > p {
+            color: $white;
+        }
+        &.white > p {
+            background: $white;
+            color: $base;
+            & span.base {
+                border: 1px solid transparent;
+            }
+        }
+        &.transparent:hover > p {
+            color: $white;
+            & span.text {
+                box-shadow: 0 0 0 1px $white;
+            }
+        }
+        &.transparent > p {
+            background: $base;
+            color: $white;
+            & span.base {
+                border: 1px solid $white;
+            }
+        }
+        &:after,
+        &:before {
+            content: "";
+            width: 1px;
+            position: absolute;
+            height: 8px;
+            background: $base;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &:before {
+            right: 0;
+            left: initial;
+        }
+        & p {
+            margin: 0;
+            height: $height;
+            line-height: $height;
+            box-sizing: border-box;
+            z-index: 1;
+            left: 0;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            & span.base {
+                box-sizing: border-box;
+                position: absolute;
+                z-index: 2;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                border: 1px solid #6f42c1;
+                &:before {
+                    content: "";
+                    width: 2px;
+                    height: 2px;
+                    left: -1px;
+                    top: -1px;
+                    background: $base;
+                    position: absolute;
+                    transition: $transition;
+                }
+            }
+            & span.bg {
+                left: -5%;
+                position: absolute;
+                background: #6f42c1;
+                width: 0;
+                height: 100%;
+                z-index: 3;
+                transition: $transition;
+                transform: skewX(-10deg);
+            }
+            & span.text {
+                z-index: 4;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                &:after {
+                    content: "";
+                    width: 4px;
+                    height: 4px;
+                    right: 0;
+                    bottom: 0;
+                    background: $base;
+                    position: absolute;
+                    transition: $transition;
+                    z-index: 5;
+                }
+            }
+        }
+        &:hover {
+            color: $white;
+            & span.bg {
+                width: 110%;
+            }
+            & span.text:after {
+                background: $white;
+            }
+        }
     }
 }
 
 /////////////////////////////
 
 //////// BOTTOM APP /////////
+
+/////////////////////////////
