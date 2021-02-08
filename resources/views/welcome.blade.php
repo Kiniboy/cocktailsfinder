@@ -20,36 +20,38 @@
             </div>
         </div>
         <div class="app-center">
-            <div class="container" id="article-right">
+            <div class="container" id="article-left">
                 <img class="container__image" src="../img/accueil.jpg">
                 <div class="container__text">
-                    <p class="lead">VOS SAVOUREUX COCKTAILS SUR TOULOUSE</p>
+                    <h2 class="lead">FOCUS : COCKTAIL DE LA SEMAINE</h2>
                     <hr class="my-4">
-                    <p> Cherchez ou laissez vous tenter par un de nos nombreux cocktails et <br>nous vous indiquerons ou vous pourrez le trouver !</p>
+                    <h3>Le Blue Lagon revisité</h3>
+                    <ul>
+                        <li>4 cl de Vodka</li>
+                        <li>3 cl du curaçao</li>
+                        <li>jus de pamplemousse</li>
+                        <li>1 citron jaune</li>
+                    </ul>
                     <p class="lead">
-{{--                    <div class="article-buttons"><a href="#">--}}
-{{--                            <p><span class="bg"></span><span class="base"></span><span class="text">Chercher un Cocktail</span></p></a><a class="white" href="#">--}}
-{{--                            <p><span class="bg"></span><span class="base"></span><span class="text">Chercher un Bar</span></p></a>--}}
-{{--                    </div>--}}
+                        Réalisez la recette "Blue Lagoon" au shaker.<br>Pressez le jus d'un demi-citron, ajoutez dans le shaker avec les autres ingrédients et des glaçons. Frappez puis versez dans le verre en filtrant.<br>Afin qu'il soit plus frais et léger, remplissez auparavant le verre de glace pilée, et verser y le jus de pamplemousse.<br>Ajouter Une rondelle de citron jaune.
                     </p>
                 </div>
             </div>
-
-            <div class="container">
-{{--                <div class="article-buttons"><a href="#">--}}
-{{--                        <p><span class="bg"></span><span class="base"></span><span class="text">Trouver un Bar</span></p></a><a class="white" href="#">--}}
-{{--                        <p><span class="bg"></span><span class="base"></span><span class="text">Trouver un Cocktail</span></p></a><a class="transparent" href="#">--}}
-{{--                        <p><span class="bg"></span><span class="base"></span><span class="text">Noter</span></p></a>--}}
-{{--                </div>--}}
+            <div class="container" id="article-right">
+                <img class="container__image" src="../img/accueil.jpg">
+                <div class="container__text">
+                    <h2 class="lead">FOCUS : BAR DE LA SEMAINE</h2>
+                    <hr class="my-4">
+                    <h3>Le Glou</h3>
+                    <p class="lead">
+                        Ce café convivial aux murs et plafonds en bois coloré propose une carte de tapas, des cocktails et des rhums.
+                    </p>
+                    <ul>
+                        <li>Adresse : 36 Boulevard de Strasbourg, 31000 Toulouse</li>
+                        <li>Téléphone : 05 61 21 80 92</li>
+                    </ul>
+                </div>
             </div>
-{{--            <div class="jumbotron" style="background-color: rgba(255, 255, 255, .5);">--}}
-{{--                <p class="lead">Le site regroupant les différents cocktails disponibles dans la ville de Toulouse.</p>--}}
-{{--                <hr class="my-4">--}}
-{{--                <p> Cherchez ou laissez vous tenter par un de nos nombreux cocktails et <br>nous vous indiquerons ou vous pourrez le trouver !</p>--}}
-{{--                <p class="lead">--}}
-{{--                    <a class="btn btn-primary btn-lg" href="cocktails" role="button">CHERCHER</a>--}}
-{{--                </p>--}}
-{{--            </div>--}}
         </div>
     </div>
     </body>
