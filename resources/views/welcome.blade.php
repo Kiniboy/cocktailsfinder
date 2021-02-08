@@ -7,13 +7,13 @@
             <div class="search-filter">
                 <div class="form__group field">
                     <input type="input" class="form__field" placeholder="Trouve ton bonheur" name="name" id='name' required />
-                    <label for="name" class="form__label">Trouve ton bonheur</label>
+                    <label for="name" class="form__label">Trouve ton bonheur...</label>
                 </div>
 {{--                <input type="text" placeholder="Trouver mon bonheur..">--}}
                 <div class="article-buttons">
                         <a class="white" href="#">
                             <p>
-                                <span class="bg"></span><span class="base"></span><span class="text">Chercher</span>
+                                <span class="bg"></span><span class="base"></span><span class="text">Chercher parmis les cocktails</span>
                             </p>
                         </a>
                 </div>
