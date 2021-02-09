@@ -14,8 +14,6 @@
 
 @import "cocktail.scss";
 
-@import "node_modules/font-awesome/scss/font-awesome.scss";
-
 
 h2 {
     color: white;
@@ -58,8 +56,7 @@ body {
 }
 
 .logonavbar {
-    content : url(../img/cocktail-svgrepo-com_1_1.svg);
-    width: 30px;
+    background-image : url(../img/cocktail-svgrepo-com_1_1.svg);
 }
 .bouton-image:before {
     content: "";

@@ -2,9 +2,46 @@
     background-image : url(../img/funnel.svg);
 }
 .card-img-top {
-    content : url(../img/drink-1209002_640.jpg);
+    content : url(../img/Le-Glou.jpg);
     object-fit: contain;
     width: 100%;
+}
+$mynewcolor:#44266F;
+
+.btn-primary {
+    color: #fff;
+    background-color: $mynewcolor!important;
+    border-color: $mynewcolor!important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: $mynewcolor;
+    border-color: $mynewcolor;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 3px rgba(86, 37, 126, 0.5) !important;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: $mynewcolor!important;
+    border-color: $mynewcolor!important;
+}
+
+.btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: $mynewcolor!important;
+    background-image: none!important;
+    border-color: $mynewcolor!important;
+}
+.card.bg-secondary {
+    background-color: #343A40!important;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.3) !important;
+}
+
+.body_cocktails{
+    background-color: #57257E !important;
 }
 .img_cards_cocktails_like {
     content : url(../img/heart-fill.svg);

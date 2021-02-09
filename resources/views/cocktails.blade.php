@@ -1,5 +1,5 @@
 @include('layout.header')
-<body>
+<body class="body_cocktails">
 <!-- card template -->
     <div class="container-fluid">
         @foreach($cocktails as $cocktail)
