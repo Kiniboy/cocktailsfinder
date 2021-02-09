@@ -21,7 +21,7 @@
         </div>
         <div class="app-center">
             <div class="container" id="article-left">
-                <img class="container__image" src="../img/accueil.jpg">
+                <img class="container__image" src="{{URL::asset('/images/accueil.jpg')}}">
                 <div class="container__text">
                     <h2 class="lead">FOCUS : COCKTAIL DE LA SEMAINE</h2>
                     <hr class="my-4">
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="container" id="article-right">
-                <img class="container__image" src="../img/accueil.jpg">
+                <img class="container__image" src="{{URL::asset('/images/Le-Glou.jpg')}}">
                 <div class="container__text">
                     <h2 class="lead">FOCUS : BAR DE LA SEMAINE</h2>
                     <hr class="my-4">
