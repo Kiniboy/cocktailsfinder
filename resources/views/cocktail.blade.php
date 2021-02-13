@@ -1,11 +1,12 @@
 @include('layout.header')
-<body style="background-color: black">
+<body class="body_cocktail">
     <div class="container pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
         <div class="jumbotron bg-dark">
             <h1 class="display-4">{{$cocktail->name}}</h1>
-            <img class="card-img-top" src="../../public/img/acceuil2.jpg" style="width: 25rem;">
-            <p class="lead">Composition Cocktail :</p>
             <hr class="my-4">
+            <img class="card-img-top" src="../../public/img/acceuil2.jpg" style="width: 25rem;">
+            <hr class="my-4">
+            <p class="lead">Composition Cocktail :</p>
             <p> {{$cocktail->composition}}</p>
             <hr class="my-4">
             <p>Lieux où il est servi sur <b>Toulouse</b></p>
@@ -18,6 +19,7 @@
             {{ csrf_field() }}
             <div class="form-group required">
                 <div class="col-sm-12">
+
                     <input class="star star-5" value="5" id="star-5" type="radio" name="star"/>
                     <label class="star star-5" for="star-5"></label>
                     <input class="star star-4" value="4" id="star-4" type="radio" name="star"/>
