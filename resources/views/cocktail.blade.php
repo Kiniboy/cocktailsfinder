@@ -7,6 +7,11 @@
             <p class="lead">Composition Cocktail :</p>
             <hr class="my-4">
             <p> {{$cocktail->composition}}</p>
+            <hr class="my-4">
+            <p>Lieux où il est servi sur <b>Toulouse</b></p>
+            <hr class="my-4">
+            <p>{{$bar->name}}</p>
+            <p>{{$bar->adresse}}</p>
         </div>
         // accessible uniquement si loggé  isset($form) && !empty($form) ) //
         <form class="form-horizontal poststars" action="{{route('postStar', $cocktail->id)}}" id="addStar" method="POST">

@@ -27,7 +27,7 @@ body {
     background-color: black !important;
 }
 
-///////// HEAD APP ///////
+///////// HEAD HOME PAGE ///////
 
 .app-top {
     background-image: url(../img/drink-1870139_1920.jpg);
@@ -73,7 +73,7 @@ body {
     background-repeat:no-repeat;
 }
 
-//////////// NAVAR ////////////////
+//////////// NAVBAR ////////////////
 
 .navbar {
     //opacity: 0.5;
@@ -192,7 +192,7 @@ li a:hover:after {
 
 ////////////////////////////////////
 
-//////// MID APP /////////
+//////// MID HOME PAGE  /////////
 
 .container {
     margin : 0 !important;
@@ -219,18 +219,18 @@ li a:hover:after {
     background-color: $white2;
     color: #56257E;
     &__image {
-        padding: 40px 40px 0 0;
+        padding: 40px;
         margin: 100px 100px 0 0;
         max-width: 100px;
         max-height: 80px;
         width: 100px;
-        //object-fit: contain;
-        //align-self: flex-start;
+        object-fit: contain;
+        align-self: flex-start;
     }
     &__text {
         flex: 1 1 auto;
         padding: 40px 40px 0 0;
-        //align-self: flex-end;
+        align-self: auto;
     }
 }
 
@@ -242,10 +242,10 @@ li a:hover:after {
     background-color: #56257E;
     color: white !important;
     &__image {
-        padding: 40px 40px 0 0;
+        padding: 40px;
         margin: 100px 100px 0 0;
         width: 100px;
-        //object-fit: contain;
+        object-fit: contain;
         //align-self: flex-end;
     }
     &__text {
@@ -390,6 +390,31 @@ li a:hover:after {
 
 /////////////////////////////
 
-//////// BOTTOM APP /////////
+//////// BOTTOM HOME PAGE /////////
+
+/////////////////////////////
+
+
+//////// ABOUT US /////////
+#society {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98rem;
+    height: 400px;
+}
+
+#team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98rem;
+    height: 827px;
+}
+
+.text {
+
+}
+
 
 /////////////////////////////
