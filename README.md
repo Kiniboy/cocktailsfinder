@@ -9,9 +9,9 @@ Démarrage
 
 installation du projet :
 
-git clone 
-composer i
-npm i
+git clone <br>
+composer i <br>
+npm i <br>
 
 npm run dev = pour lancer le serveur front
 
