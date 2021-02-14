@@ -24,10 +24,10 @@
                     <a class="nav-link" href="/" ><img class="logonavbar"> </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="cocktails">COCKTAILS</a>
+                    <a class="nav-link" href="/cocktails">COCKTAILS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutus">A PROPOS</a>
+                    <a class="nav-link" href="/aboutus">A PROPOS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="login">S'INSCRIRE/SE CONNECTER</a>

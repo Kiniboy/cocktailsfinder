@@ -37,7 +37,7 @@
 </body>
 <script>
     $('#addStar').change('.star', function(e) {
-    $(this).submit();
+        $(this).submit();
     });
 </script>
 @include('layout.footer')

@@ -1,5 +1,5 @@
 @include('layout.header')
-<body>
+<body class="body_cocktails">
     <div class="container pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
         <h2 style="color: #56257E">L'ENTREPRISE</h2>
         <hr class="my-4">
