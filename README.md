@@ -13,7 +13,7 @@ git clone <br>
 composer i <br>
 npm i <br>
 
-npm run dev = pour lancer le serveur front
+npm run dev = pour lancer le serveur
 
 
 Auteurs
