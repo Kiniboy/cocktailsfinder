@@ -42,8 +42,17 @@
         <label for="mdp">Mot de passe : </label>
         <input for="mdp" type="mdp" id="mdp">
     </div>
+    @if (Request::has('previous'))
     <input style="margin-top: 20px" type="submit" value="CONNEXION">
+    @endif
 </form>
 </body>
+{{--<div class="form-group">--}}
+{{--    @if (Request::has('previous'))--}}
+{{--        <input type="hidden" name="previous" value="{{ Request::get('previous') }}">--}}
+{{--    @else--}}
+{{--        <input type="hidden" name="previous" value="{{ URL::previous() }}">--}}
+{{--    @endif--}}
+{{--</div>--}}
 
 @include('resources.views.layout.footer')

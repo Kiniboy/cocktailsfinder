@@ -1,7 +1,7 @@
 @include('layout.header')
     <body>
 
-    <div class="container ">
+    <div class="container pricing-header text-center px-3 py-3 pt-md-5 pb-md-4 mx-auto">
         <div class="app-top">
             <h1 class="app-title text-center">CocktailsFinder</h1>
             <div class="search-filter">

@@ -24,7 +24,9 @@ Route::get('/aboutus', function () {
 ///// ROUTES FRONT ////////////////////////
 
 Route::get('/cocktails', 'CocktailController@viewCocktails');
+Route::get('/bars', 'BarController@viewBars');
 Route::get('/cocktail/{id}','CocktailController@viewCocktail');
+Route::get('/bar/{id}','BarController@viewBar');
 
 ///// ROUTES ADMIN ////////////////////////
 

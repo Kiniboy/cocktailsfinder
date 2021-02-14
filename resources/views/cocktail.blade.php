@@ -14,7 +14,7 @@
             <p>{{$bar->name}}</p>
             <p>{{$bar->adresse}}</p>
         </div>
-        // accessible uniquement si loggé  isset($form) && !empty($form) ) //
+{{--       accessible uniquement si loggé  isset($form) && !empty($form) ) //--}}
         <form class="form-horizontal poststars" action="{{route('postStar', $cocktail->id)}}" id="addStar" method="POST">
             {{ csrf_field() }}
             <div class="form-group required">

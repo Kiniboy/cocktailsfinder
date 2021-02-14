@@ -3,19 +3,17 @@
 namespace App\Http\Controllers;
 
 use App\Bar;
-use Illuminate\Http\Request;
 
 class BarController extends Controller
 {
-    public function index() {
-        return view('places', ['bar'=>Bar::get()]);
+    ////////////////////////// NOS VUES //////////////////////////////
+
+    public function viewBars() {
+        return view('cocktails', ['bars'=>Bar::get()]);
     }
 
-    public function view (Cocktail $cocktail) {}
-
-    public function viewByid() {}
-
-    public function edit () {}
-
-    public function delete () {}
+    public function viewBar($id) {
+        $bar = Bar::find($id);
+        return view('cocktail', ['bar'=> $bar]);
+    }
 }
