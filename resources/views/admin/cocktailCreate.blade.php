@@ -19,17 +19,4 @@
 <h1>Créer un Cocktail</h1>
 
 {!! form($form) !!}
-
-{{--<form method="post"  action="{{ url('cocktail.post') }}" class="form-create" style="max-width: 900px; justify-content: center; margin: auto">--}}
-{{--    {{csrf_field()}}--}}
-{{--    <div class="form-group">--}}
-{{--        <label class="title-input">Nom</label>--}}
-{{--        <input type="text" class="form-control" id="inputName" aria-describedby="nom" placeholder="Ecrire le nom">--}}
-{{--    </div>--}}
-{{--    <div class="form-group">--}}
-{{--        <label class="title-input">Composition</label>--}}
-{{--        <input type="text" class="form-control" id="inputComposition" placeholder="Écrire la composition">--}}
-{{--    </div>--}}
-{{--    <a href="{{ url('admin/cocktails') }}" type="submit" class="btn btn-primary">Créer</a>--}}
-{{--</form>--}}
 </body>

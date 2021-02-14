@@ -71,15 +71,5 @@ class AdminCocktailController extends Controller
         return view('admin/cocktail.create');
     }
 
-//        public function delete () {}
-
-//    public function store () {
-////        dd($request->all());
-////        $name = $request->input('nom');
-////        $composition = $request->input('composition');
-//        var_dump(request('nom'));
-//        var_dump(request('composition'));
-////        return redirect('admin/adminCocktails', 302);
-//    }
 
 }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Bar;
 use App\Cocktail;
 use Illuminate\Http\Request;
 
@@ -16,17 +17,16 @@ class CocktailController extends Controller
 
     /// Vue page détail d'un cocktail ///
     public function viewCocktail($id) {
-//        dd($cocktail);
-//        Cocktail::get($id);
         $cocktail = Cocktail::find($id);
-//        dd($cocktail);
         return view('cocktail', ['cocktail'=> $cocktail]);
     }
-//
-//    public function show($id)
-//    {
-//        return view('/cocktail', [
-//            'cocktail' => Cocktail::findOrFail($id)
-//        ]);
-//    }
+
+    public function viewBars() {
+        return view('cocktails', ['bars'=>Bar::get()]);
+    }
+
+    public function viewBar($id) {
+        $bar = Bar::find($id);
+        return view('cocktail', ['bar'=> $bar]);
+    }
 }

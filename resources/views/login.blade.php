@@ -47,12 +47,5 @@
     @endif
 </form>
 </body>
-{{--<div class="form-group">--}}
-{{--    @if (Request::has('previous'))--}}
-{{--        <input type="hidden" name="previous" value="{{ Request::get('previous') }}">--}}
-{{--    @else--}}
-{{--        <input type="hidden" name="previous" value="{{ URL::previous() }}">--}}
-{{--    @endif--}}
-{{--</div>--}}
 
 @include('resources.views.layout.footer')

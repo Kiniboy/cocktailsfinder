@@ -14,13 +14,6 @@ use Kris\LaravelFormBuilder\FormBuilder;
 
 class AdminBarController extends Controller
 {
-    /// Vue page Les Cocktails ///
-//    /**
-//     * @return Factory|Application|View
-//     */
-//    public function index() {
-//        return view('admin/adminBars', ['bars'=>Bar::get()]);
-//    }
 
     ///////////// METHODES ADMIN ////////////////
 

@@ -1,4 +1,4 @@
-<div class="col-sm-6 col-lg-3 py-2">
+<div class="col-sm-6 col-lg-3 py-2" style="margin: auto">
     <div class="card text-white bg-secondary h-100">
         <img class="card-img-top img-fluid" src="" alt="Cocktail image">
         <div class="card-body">

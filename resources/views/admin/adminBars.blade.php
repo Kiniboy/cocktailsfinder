@@ -14,12 +14,6 @@
 <div class="container mt-4 pt-4 pb-4" style="background: white;">
     <h1>Gérer les bars</h1>
 
-{{--    @if(Session::has('flash_message'))--}}
-{{--        <div class="alert alert-success">--}}
-{{--            {{ Session::get('flash_message') }}--}}
-{{--        </div>--}}
-{{--    @endif--}}
-
     <table class="table table-stripped">
         <thead>
         <tr>

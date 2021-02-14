@@ -13,13 +13,6 @@
 <div class="container mt-4 pt-4 pb-4" style="background: white;">
     <h1>Gérer les cocktails</h1>
 
-    {{--    @for(message in app.flashes('success'))--}}
-
-    {{--    <div class="alert alert-success">--}}
-    {{--        {{ message }}--}}
-    {{--    </div>--}}
-    {{--@endfor--}}
-
     <table class="table table-stripped">
         <thead>
         <tr>
